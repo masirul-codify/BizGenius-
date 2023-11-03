@@ -1,0 +1,220 @@
+  
+
+@media only screen and (max-width: 991px){
+    /* footer newsletter area */
+ 
+    .news_letter{
+        background: #FE6809;
+        margin-top:25px;
+        padding: 40px 30px;
+      }
+    
+      .news_letter i{
+        font-size: 60px;
+        color: #fff;
+        margin-right: 20px;
+      }
+      .news_letter .news_text h3{ 
+        font-family: 'Teko';
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+        margin-bottom: 0px!important;
+      }
+      .news_letter .news_text p{
+        font-family: 'Teko';
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+      }
+    
+      .news_letter_right {
+        position: relative;
+      }
+      .news_letter_right input {
+        background: #fff;
+        border-radius: 5px;
+        width: 100%;
+        padding: 15px 33px;
+        font-family: 'teko';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #BABABA;
+      }
+      .news_letter_right button {
+        background: #1F1F1F;
+        border-radius: 5px;
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        padding: 7px 13px;
+        font-family: 'Teko';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #fff;
+      }
+    
+
+}
+
+
+@media only screen and (max-width: 800px){
+
+
+}
+
+@media only screen and (max-width: 767px){
+  
+    /* footer newsletter area */
+    .news_letter_right {
+        position: relative;
+      }
+    
+      .news_letter_right input {
+        background: #fff;
+        border-radius: 5px;
+        width: 100%;
+        padding: 14px 30px;
+        font-family: 'teko';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #BABABA;
+      }
+      .news_letter_right button {
+        background: #1F1F1F;
+        border-radius: 5px;
+        position: absolute;
+        right: 6px;
+        top: 5px;
+        padding: 4px 9px!important;
+        font-family: 'Teko';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: #fff;
+      }
+    
+    .news_letter {
+      padding: 40px 30px;
+    }
+    
+    .news_letter_left {
+      margin-bottom: 20px;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 590px){
+
+    /* footer newsletter area */
+
+    .news_letter {
+        padding: 5px 10px;
+      }
+
+    .news_letter_right {
+        position: relative;
+      }
+    
+      .news_letter_right input {
+        background: #fff;
+        border-radius: 5px;
+        width: 100%;
+        padding: 16px 16px;
+        font-family: 'teko';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #BABABA;
+      }
+      .news_letter_right button {
+        background: #1F1F1F;
+        border-radius: 5px;
+        position: absolute;
+        right: 4px;
+        top: 4px;
+        padding: 2px!important;
+        font-family: 'Teko';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #fff;
+      }
+    
+    .news_letter {
+      padding: 30px 30px;
+    }
+    
+    .news_letter_left {
+      margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 499px){
+
+    .news_letter {
+        padding: 30px 10px;
+      }
+      
+}
+
+
+
+@media only screen and (max-width: 392px){
+
+    /* footer newsletter area */
+    .news_letter_right {
+        position: relative;
+      }
+    
+      .news_letter_right input {
+        background: #fff;
+        border-radius: 5px;
+        width: 100%;
+        padding: 16px 13px;
+        font-family: 'teko';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #BABABA;
+      }
+      .news_letter_right button {
+        background: #1F1F1F;
+        border-radius: 5px;
+        position: absolute;
+        right: 4px;
+        top: 4px;
+        padding: 0px 5px!important;
+        font-family: 'Teko';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #fff;
+      }
+    
+    .news_letter {
+      padding: 30px 10px;
+    }
+    
+    .news_letter_left {
+      margin-bottom: 20px;
+    }
+
+}

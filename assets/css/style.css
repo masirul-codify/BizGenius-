@@ -1,0 +1,188 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Armado - Military Service HTML Template
+    Author: Bdevs
+    Support: https://www.devsnews.com/support/
+    Description: Armado - Military Service HTML Template
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+/************ TABLE OF CONTENTS ***************
+
+    01. common css
+	02. buttons css
+	03. animation css
+  topbar css
+	04. header css
+	05. hero css
+	06. banner css
+	07. activity css
+	08. about css
+	09. services css
+	10. facility css
+	11. donation css
+	12. cta css
+	13. news css
+	14. contact-form css
+	15. brand css
+	16. subscribe css
+	17. page-title css
+	18. fact css
+	19. video css
+	20. team css
+	21. testimonial css
+	22. gallery css
+	23. feature css
+	24. enquiry css
+	25. accordion css
+	26. pricing css
+	27. faq css
+	28. error css
+	29. contact css
+	30. blog css
+	31. operations-gallery css
+	32. settings css
+	33. cursor css
+	34. footer css
+
+**********************************************/
+/*----------------------------------------
+    01. common css
+----------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;family=Teko:wght@300;400;500;600;700&amp;display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*----------------------------------------
+	  topbar css
+----------------------------------------*/
+.bg-topbar{
+  background: #1F1F1F;
+}
+
+.topbar h6,p{ 
+  color: #fff;
+  line-height: 29px;
+  font-size: 12px!important;
+}
+
+.topbar span{
+  color: #666666;
+  font-size:12px!important;
+  font-weight:400;
+}
+
+.fix{
+	overflow:hidden;
+}
+
+/* header area */
+ .banner-area{
+	width: 100%;
+	height: 100vh;
+	background-image: url(assets/img/banner/hero-banner.png);
+ }
+
+
+ 
+/* slider area start */
+.slider-area{
+    margin-bottom: 0;
+    padding-bottom: 0%;
+    overflow: hidden;
+    width: 100%;
+}
+.single-slide>img{
+    width: 100%;
+}
+
+.single-slide{
+    text-align:center;
+    padding: 175px 0; 
+    background-size: cover;
+    background-position: center  top;
+    width:100%;
+}
+
+.single-slide h4{
+  color: #ffff;
+  font-size: 30px;
+}
+.single-slide h2{
+    color: #ffff;
+    font-size: 72px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+
+  .single-slide a{
+    background: #4272D7;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 20px 40px;
+    display: inline-block;
+  }
+
+
+
+  .owl-nav .owl-prev{
+    background: red!important;
+    width: 40px;
+    height: 40px; 
+    right: auto;
+    left: 50px;
+    top:50%;
+    text-align: center;
+    color: #fff!important;
+    z-index: 9;
+    position: absolute;
+  }
+
+  .owl-nav .owl-next{
+    background: red!important;
+    width: 40px;
+    height: 40px; 
+    right:50px;
+    left:auto;
+    top:50%;
+    text-align: center;
+    color: #fff!important;
+    float: right;
+    line-height: 40px;
+    z-index: 9;
+    position: absolute;
+  }
+
+  .owl-dots{
+    text-align: center;
+    margin-top: -51px;
+    z-index: 999!important;
+    color: red;
+    font-size: 40px;
+    bottom: 40px;
+    position: relative;
+  }
+
+  .slider-active .owl-dot {
+    background: rgb(215, 200, 200)!important;
+    color: rgb(255, 243, 243);
+    border-radius: 100%;
+    display: inline-block;
+    height: 10px;
+    margin: 0 2px;
+    width: 10px;
+    padding: 0!important; 
+}
+
+.slider-active .owl-dot.active {
+    background: #4272D7!important;;
+
+}
+/* slider end */
