@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" >
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -44,31 +44,17 @@
         <!-- topbar area end -->
 
         <!-- header area start -->
-        <header class="sticky-top bg-dark">
-          <button class="button d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><i class="fa-solid fa-bars-staggered"></i></button>
+              <nav class="sticky-top  navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="assets/img/logo/logo.png" alt=""></a> 
+                    <button type="button" class="navbar-toggler button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class=""><i class="fa-solid fa-bars-staggered"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse"> 
 
-
-          <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
-            <div class="offcanvas-header">
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body fix bg-dark">
- 
-                <nav class="navbar navbar-expand-lg py-3"> 
-
-                  <a class="navbar-brand" href="#"><img src="assets/img/logo/logo.png" alt=""></a>  
-
-                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                     <ul class="navbar-nav justify-content-center my-2 my-lg-0 navbar-nav-scroll">
                         <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Home  +
-                          </a>
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Home 1</a></li>
-                            <li><a class="dropdown-item" href="#">Home 2</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Coming soon</a></li>
-                          </ul>
+                          <a class="nav-link" href="#">Home  + </a>
                         </li>
 
                         <li class="nav-item">
@@ -91,33 +77,17 @@
                         </li> 
                       </ul> 
 
-                      <form class="d-flex align-items-center justify-content-center" role="search">
-                        <div class=" mx-3"> <i class="fa-solid fa-magnifying-glass"></i> </div> 
-                        <button class="" type="submit">Get Free Qute</button>
-                      </form>
-                  </nav>
-
-            </div>
-          </div> 
-         </header> 
+                        <form class="d-flex align-items-center" role="search">
+                          <div class=" mx-3"> <i class="fa-solid fa-magnifying-glass"></i> </div> 
+                          <button class="" type="submit">Get Free Qute</button>
+                        </form>
+              </nav>
         <!-- header area end -->
 
                            
-        <div class="header-content">
-          <div class="container">
-            <div class="row">
-
-              <div class="col-12 col-lg-8">
-                <h6>Empowering Success</h6>
-                <h1>Unleash Your Business <span class="primary-color"> Potential . </span></h1> 
-                <button type="button" class="">Read More</button>
-              </div>
-            </div>
-          </div>
-        </div> 
 
         <!-- slider area start -->
-            <div class="slider fix">
+            <section class="slider m-0 pt-0 fix">
               <div id="carouselExampleDark" class="carousel slide"> 
                   <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
@@ -139,19 +109,29 @@
                     <span class="visually-hidden">Next</span>
                   </button>
                 </div>  
-              </div>
+              </section>
         <!-- slider area end -->
 
-        <!-- service area start -->  
-     <section id="service" class="">
-          <div class="container-fluid bg-dark  service-area overflow-y-visible">
-              <div class="row image-area d-flex align-items-center justify-content-center ">
-                <div class="img-opacity"></div>
-                <div class="col-12">
-                  <div class="div">
-                    <img id="service-bg" src="assets/img/banner/service-bg.png" alt="">
+              <div class="header-content">
+                <div class="container">
+                  <div class="row">
+
+                    <div class="col-12 col-lg-8">
+                      <h6>Empowering Success</h6>
+                      <h1>Unleash Your Business <span class="primary-color"> Potential . </span></h1> 
+                      <button type="button" class="">Read More</button>
+                    </div>
                   </div>
                 </div>
+              </div> 
+
+
+        <!-- service area start -->  
+        <section id="service" class=" service-area w-100 h-auto bg-danger overflow-hidden">
+          <div class="container-fluid bg-dark">
+              <div class="row image-area d-flex align-items-center justify-content-center " style="background-image: url(assets/img/banner/service-bg.png);">
+                <div class="img-opacity"></div>
+
      
                 <div class="row  service-content py-5 fix">
                    <div class="col col-lg-1"></div>
@@ -166,11 +146,11 @@
                    <div class="col  col-md-5 col-lg-6"></div>
                  </div>   
     
-                 <div class="service-cards overflow-y-visible">
-                   <div class="row mx-0 ">
+                 <div class="service-cards">
+                   <div class="row d-flex align-items-center justify-content-center"> 
        
-                     <div class="col-12 col-md-6 col-lg-3 single-card">
-                       <div class="card text-bg-light mb-3  d-flex align-items-center justify-content-center" style="max-width: 18rem;">
+                     <div class="col-12 col-sm-12 col-md-6 col-lg-3 single-card  d-flex align-items-center justify-content-center">
+                       <div class="card text-bg-light mb-3  d-flex align-items-center justify-content-center" style="max-width: 22rem;">
                          <div class="card-icon-area d-flex fix px-5 mt-3">
                            <div class=""> <img src="assets/img/icons/Icon.png" alt=""> </div>
                            <h5>Accounting and  Bookkeeping</h5>
@@ -181,8 +161,8 @@
                        </div>
                      </div>
        
-                     <div class="col-12 col-md-6  col-lg-3 single-card">
-                       <div class="card text-bg-light mb-3  d-flex align-items-center justify-content-center" style="max-width: 18rem;">
+                     <div class="col-12 col-sm-12  col-md-6  col-lg-3 single-card  d-flex align-items-center justify-content-center">
+                       <div class="card text-bg-light mb-3  d-flex align-items-center justify-content-center" style="max-width: 22rem;">
                          <div class="card-icon-area d-flex fix px-5 mt-3">
                            <div class="mx-1"> <img src="assets/img/icons/Icon 2.png" alt=""> </div>
                            <h5>IT Support and Consulting</h5>
@@ -193,8 +173,8 @@
                        </div>
                      </div>
        
-                     <div class="col-12 col-md-6  col-lg-3 single-card">
-                       <div class="card text-bg-light mb-3  d-flex align-items-center justify-content-center" style="max-width: 18rem;">
+                     <div class="col-12  col-sm-12 col-md-6  col-lg-3 single-card  d-flex align-items-center justify-content-center">
+                       <div class="card text-bg-light mb-3  d-flex align-items-center justify-content-center" style="max-width: 22rem;">
                          <div class="card-icon-area d-flex fix px-5 mt-3">
                            <div class="mx-1"> <img src="assets/img/icons/Icon 3.png" alt=""> </div>
                            <h5>Marketing and Advertising</h5>
@@ -205,8 +185,8 @@
                        </div>
                      </div>
        
-                     <div class="col-12 col-md-6  col-lg-3 single-card">
-                       <div class="card text-bg-light mb-3  d-flex align-items-center justify-content-center" style="max-width: 18rem;">
+                     <div class="col-12 col-sm-12  col-md-6  col-lg-3 single-card  d-flex align-items-center justify-content-center">
+                       <div class="card text-bg-light mb-3  d-flex align-items-center justify-content-center" style="max-width: 22rem;">
                          <div class="card-icon-area d-flex fix px-5 mt-3">
                            <div class=""> <img src="assets/img/icons/Icon 4.png" alt=""> </div>
                            <h5>Human Resources</h5>
@@ -222,15 +202,15 @@
               </div> 
           </div>
 
-        </section> 
+        </section>
         <!-- service area end -->
 
 
         <!-- about area start -->
-        <section id="about" class="mt-120 pt-5 mb-5 overflow-hidden"> 
+        <section id="about" class="pt-5 mb-5 overflow-hidden"> 
           <div class="auto-container mt-5 about-area">
             <div class="row g-3 ">
-              <div class="about-left w-80 col-12 col-md-12 col-lg-6">
+              <div class="about-left w-80 col-12 col-md-12 col-lg-6 my-5">
                 <div class="flat-img">
                   <img  class="img-fluid w-60 h-auto " src="assets/img/about/Img.png" alt="">
                     <div class="shape-1">
@@ -244,7 +224,7 @@
                     </div>
                     <div class="v-bg-image">
                        <div class="v-img"> 
-                          <img class="img-fluid  w-100 h-auto " src="assets/img/about/Rectangle 2.png" alt="">
+                          <img class="img-fluid img-none w-100 h-auto " src="assets/img/about/Rectangle 2.png" alt="">
   
                         <div class="v-bg">
                           <div class="player_btn text-center">
@@ -264,7 +244,7 @@
 
                   <p>Providing legal advice, contract drafting, compliance assistance, intellectual property protection, and other legal support for businesses. Creating visual content, such as logos, brochures, infographics, and other branding materials.</p>
 
-                  <div class="details  d-flex align-items-center justify-content-between mx-auto gap-5"> 
+                  <div class="details  d-flex align-items-center justify-content-between"> 
                     <div class="key-feature">
                       <h6> <i class="fa-solid fa-angles-right rounded-pill bg-dark text-white p-2 mx-2"></i> Business Consulting </h6>
                       <h6> <i class="fa-solid fa-angles-right rounded-pill bg-dark text-white p-2 mx-2"></i> Legal Services </h6>
@@ -281,9 +261,14 @@
                     </div>
                   </div>
 
-                  <div class="contact d-flex align-items-center justify-content-between mx-auto gap-5 mt-5">
-                    <button type="button" class="button"> Read More </button>
-                    <div class="d-flex align-items-center justify-content-between mx-auto gap-5">
+                  
+
+
+                  <div class="contact d-flex align-items-center justify-content-between mt-5 text-center">
+                    <div class="col-12 col-lg-6 col-sm-12 col-md-6  d-flex align-items-center justify-content-start">
+                      <button type="button" class="button"> Read More </button>
+                    </div>
+                    <div class="col-12 col-lg-6 col-sm-12 col-md-6 d-flex align-items-center justify-content-end mx-auto gap-5">
                         <div> 
                           <img src="assets/img/about/062-phone.png" alt="">
                         </div>
@@ -293,6 +278,7 @@
 
             </div>
           </div>
+         </div>
         </section> 
         <!-- about area end --> 
         
@@ -783,7 +769,7 @@
   <!-- map area end -->
 
   <!-- footer area start -->
-  <footer class="footer_area main__footer pt_20" style="background-image: url(assets/img/banner/map.png);">
+  <footer class="footer_area main__footer pt_20 pb-0" style="background-image: url(assets/img/banner/map.png);">
     <div class="container">
       
       <div class="row my-5 news_letter">
@@ -825,7 +811,7 @@
                   <div class="footer__text">
                       <p>I've been using [business name] for the past year and I'm so glad I did. Their products and services are top-notch and their customer service is amazing. I would highly recommend them to anyone</p>
                       <div class="footer_social text-center">
-                          <ul>
+                          <ul class="d-flex align-items-center justify-content-center">
                               <li><a href="#"> <i class="fa-brands fa-linkedin"></i> </a></li>
                               <li><a  href="#"><i class="fa-brands fa-facebook"></i> </a></li>
                               <li><a  href="#"> <i class="fa-brands fa-twitter"></i></a></li>
@@ -920,12 +906,16 @@
       </div>
   </div>
 </div>
-<div class="footer-bottom centred pt_20 pb_20">
+</footer>
+
+<footer><div class="footer-bottom centred pt_20 pb_20">
   <div class="container">
       <div class="copyright"><p>Copyright © 2023 <a href="index.html">BizGenius.</a>  All rights reserved.</p></div>
   </div>
 </div>
+
 </footer>
+
   <!-- footer area end -->
 
 
