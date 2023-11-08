@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "flaticon_bizgenius";
+    src: url("../fonts/flaticon_bizgenius7b24.ttf?4f00d054c1bc29f78b196c87e6ffc71f") format("truetype"),
+  url("../fonts/flaticon_bizgenius7b24.woff?4f00d054c1bc29f78b196c87e6ffc71f") format("woff"),
+  url("../fonts/flaticon_bizgenius7b24.woff2?4f00d054c1bc29f78b196c87e6ffc71f") format("woff2"),
+  url("../fonts/flaticon_bizgenius7b24.eot?4f00d054c1bc29f78b196c87e6ffc71f#iefix") format("embedded-opentype"),
+  url("../fonts/flaticon_bizgenius7b24.svg?4f00d054c1bc29f78b196c87e6ffc71f#flaticon_bizgenius") format("svg");
+  }
+  
+  i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: 'flaticon_bizgenius' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .flaticon-search:before {
+    content: "\f101";
+  }
+  .flaticon-phone:before {
+    content: "\f102";
+  }
+  .flaticon-add:before {
+    content: "\f103";
+  }
+  .flaticon-linkedin:before {
+    content: "\f104";
+  }
+  .flaticon-facebook:before {
+    content: "\f105";
+  }
+  .flaticon-twitter:before {
+    content: "\f106";
+  }
+  .flaticon-dribbble:before {
+    content: "\f107";
+  }
+  .flaticon-right-arrow:before {
+    content: "\f108";
+  }
+  .flaticon-left:before {
+    content: "\f109";
+  }
+  .flaticon-assessment:before {
+    content: "\f10a";
+  }
+  .flaticon-task-list:before {
+    content: "\f10b";
+  }
+  .flaticon-compliant:before {
+    content: "\f10c";
+  }
+  .flaticon-list:before {
+    content: "\f10d";
+  }
+  .flaticon-darts:before {
+    content: "\f10e";
+  }
+  .flaticon-target:before {
+    content: "\f10f";
+  }
+  .flaticon-response:before {
+    content: "\f110";
+  }
+  .flaticon-economics:before {
+    content: "\f111";
+  }
+  .flaticon-right-arrow-1:before {
+    content: "\f112";
+  }
+  .flaticon-badge:before {
+    content: "\f113";
+  }
+  .flaticon-badge-1:before {
+    content: "\f114";
+  }
+  .flaticon-badge-2:before {
+    content: "\f115";
+  }
+  .flaticon-angle:before {
+    content: "\f116";
+  }
+  .flaticon-play:before {
+    content: "\f117";
+  }
+  .flaticon-monitor:before {
+    content: "\f118";
+  }
+  .flaticon-web-analysis:before {
+    content: "\f119";
+  }
+  .flaticon-inclined-lead:before {
+    content: "\f11a";
+  }
+  .flaticon-coffee-cup:before {
+    content: "\f11b";
+  }
+  .flaticon-paint-roller:before {
+    content: "\f11c";
+  }
+  .flaticon-paint-roller-1:before {
+    content: "\f11d";
+  }
+  .flaticon-star:before {
+    content: "\f11e";
+  }
+  .flaticon-star-1:before {
+    content: "\f11f";
+  }
+  .flaticon-phone-call:before {
+    content: "\f120";
+  }
+  .flaticon-envelope:before {
+    content: "\f121";
+  }
+  .flaticon-envelope-1:before {
+    content: "\f122";
+  }
+  .flaticon-location:before {
+    content: "\f123";
+  }
+  .flaticon-pin:before {
+    content: "\f124";
+  }
+  .flaticon-user:before {
+    content: "\f125";
+  }
+  .flaticon-bubble-chat:before {
+    content: "\f126";
+  }
+  .flaticon-right-arrow-2:before {
+    content: "\f127";
+  }
+  .flaticon-play-button-arrowhead:before {
+    content: "\f128";
+  }
+  .flaticon-growth:before {
+    content: "\f129";
+  }
+  .flaticon-rating:before {
+    content: "\f12a";
+  }
+  .flaticon-rating-1:before {
+    content: "\f12b";
+  }
+  .flaticon-right-arrow-angle:before {
+    content: "\f12c";
+  }
+  .flaticon-loupe:before {
+    content: "\f12d";
+  }
+  .flaticon-calendar:before {
+    content: "\f12e";
+  }
+  .flaticon-angle-left:before {
+    content: "\f12f";
+  }
+  .flaticon-quotation:before {
+    content: "\f130";
+  }
+  .flaticon-design-thinking:before {
+    content: "\f131";
+  }
+  .flaticon-pencil:before {
+    content: "\f132";
+  }
+  .flaticon-send:before {
+    content: "\f133";
+  }
+  .flaticon-tick:before {
+    content: "\f134";
+  }
+  .flaticon-coffee:before {
+    content: "\f135";
+  }
+  .flaticon-placeholder:before {
+    content: "\f136";
+  }
+  
