@@ -1,6 +1,35 @@
+  
+      
+/* topbar area  start */
+  
+  @media only screen and (max-width: 500px){
+
+
+    .topbar{
+      padding: 3px 0px!important;
+    }
+
+        
+    .topbar-left h6, 
+    .topbar-right h6{
+      font-family: Manrope;
+      font-size: 10px!important;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em; 
+      color: #FFFFFF;
+    }
+
+  }
+
+  
+/* topbar area end */
+  
+  
   /*service area*/
 
   @media only screen and (max-width: 2560px){
+
     .service-cards{ 
       top: 85%; 
     
@@ -8,6 +37,11 @@
     
     }
     @media only screen and (max-width: 1440px){
+
+      .header-content{
+        top: 45%!important; 
+       }
+ 
     .service-cards{
       width: 64%!important; 
       top: 80%!important; 
@@ -30,6 +64,11 @@
     
     
     @media only screen and (max-width: 800px){
+     
+    .header-content{
+        top: 55%!important; 
+       }
+ 
     .service-cards{ 
       top: 75%;  
       }
@@ -42,6 +81,11 @@
     }
     
     @media only screen and (max-width: 500px){
+
+      .header-content{
+       top: 55%!important; 
+      }
+
       .service-area {
         margin-bottom: 0px!important;
         padding-bottom: 900px!important;
@@ -53,6 +97,12 @@
   /* about area start */
 
     
+  @media  (min-width: 800px), screen and (max-width: 2560px){
+
+
+  }
+
+    
   @media only screen and (max-width: 500px){
     .img-none {
         display: none;
@@ -62,6 +112,15 @@
     {
       top: 0%!important;
       left: 70%!important;
+    }
+
+    .v-play-bg{
+      position: absolute;
+      top: 45%;
+      left: 40%;
+      font-size: 50px;
+      opacity: 1!important;
+      z-index: 99;
     }
 
     .v-bg{

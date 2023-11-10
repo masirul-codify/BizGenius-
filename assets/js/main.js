@@ -6,6 +6,19 @@
 
 ****************************************************/
 
+
+// magnific popup for video
+$(document).ready(function() {
+	$('.video').magnificPopup({
+		type:'iframe'
+	
+	});
+  });
+
+
+
+
+
 // faq area start
 
 		const accordionItemHeaders = document.querySelectorAll(
