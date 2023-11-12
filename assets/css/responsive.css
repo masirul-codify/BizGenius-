@@ -24,6 +24,40 @@
 
   
 /* topbar area end */
+
+/* about.html start */
+/* header area start */
+@media only screen and (max-width: 1400px){
+  .aboutpage li a{
+    font-family: 'Manrope',sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+
+}
+.aboutpage li a:hover{
+  color: #FE6809!important;
+ }
+/* header area end */
+/* slider area start */
+.aboutpage-header-content{
+  position: absolute;
+}
+@media only screen and (max-width: 1400px){
+  .aboutpage-header-content{
+  top: 60%!important;
+  }
+
+}
+
+
+/* slider area end */
+
+
+/*about .html end */
   
   
   /*service area*/
