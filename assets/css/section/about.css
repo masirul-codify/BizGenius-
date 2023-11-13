@@ -11,11 +11,52 @@
     transition: .3s;
 }
 
+
+/* navbar start */
+.main-nav{
+  position: relative;
+  display: inline-block;
+}
+.sub-menu{
+  background: #313030!important;
+  color: #fff!important;
+  padding: 5px;
+  border-top: 2px solid #FE6809;
+  list-style: none;
+  position: absolute;
+  opacity: 0;
+  transform: translateY(16%);
+  left:15%;
+  margin-left: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.main-nav:hover .sub-menu{
+  opacity: 1;
+  cursor: pointer;
+  transition: .4s ease-in-out;
+}
+
+.sub-menu-item{
+  border-bottom: 1px solid #484848;
+  padding: 10px 15px;
+  display: block;
+}
+
+
+.sub-menu-item:hover{
+  margin-left: 5px;
+  border-bottom: 1px solid #FE6809;
+  border-radius: 15px;
+  transition: .4s ease;
+}
+
+/* navbar end */
 /* header content */
 
 
 .aboutpage-header-content{
-    top: 46%;
+    top: 55%;
     position: absolute;
     text-align: left;
     margin-left: 37%;
@@ -46,7 +87,97 @@
 
 
    .carousel-item .aboutpage-img {
-    height: 560px!important;
+    height: 580px!important;
    }
    /* header content end */
+
+   /* service area start */
+
+   .title-area h6{
+    font-family: 'Teko',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.3em;
+    color: #FE6809;
+   }
+
+   .title-area h2{ 
+    font-family: 'Teko',sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    color: #fff;
+   }
+
+   .cards-title{
+  font-family: 'Teko',sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+   }
+
+   .cards-sub-title{
+  font-family: 'Manrope',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+   }
+
+   .cards-text{
+    font-family: 'Manrope',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: #fff;
+   }
+
+   .single-card i{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-top: 20px;
+   }
+   .card-service{
+    border: 2px solid #000;
+
+   }
+
+   .card-service:hover{
+    border: 2px solid var(--theme-color)!important;
+    -webkit-transition-duration: .3s!important;
+    -o-transition-duration: .3s!important;
+    transition-duration: .3s!important;
+    box-shadow:  #FE6809, 0.25px 55px,  #FE6809 251, 0.12.122px 30px,  #FE6809 0px 4px 6px,  #FE6809 0.17px 13px,  #FE6809 0px -3px 5px;
+   }
+   .card-service:hover i{
+    color: #FE6809!important;
+   }
+
+   .plus-icon{
+    margin-left: 16rem;
+    margin-top: 2rem;
+   }
+
+   .plus-icon a i{
+     font-size: 25px;
+     padding: 10px;
+     margin-bottom: 10px;
+     border-radius: 10%;
+   }
+
+   .plus-icon a i:hover{
+    background: #FE6809;
+    color: #fff!important;
+    -webkit-transition-delay: .2s;
+    -o-transition-delay: .2s;
+    transition-delay: .2s;
+  }
+   /* service area end */
    

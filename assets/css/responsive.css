@@ -25,41 +25,6 @@
   
 /* topbar area end */
 
-/* about.html start */
-/* header area start */
-@media only screen and (max-width: 1400px){
-  .aboutpage li a{
-    font-family: 'Manrope',sans-serif;
-    font-size: 12px;
-    font-weight: 800;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-    }
-
-}
-.aboutpage li a:hover{
-  color: #FE6809!important;
- }
-/* header area end */
-/* slider area start */
-.aboutpage-header-content{
-  position: absolute;
-}
-@media only screen and (max-width: 1400px){
-  .aboutpage-header-content{
-  top: 60%!important;
-  }
-
-}
-
-
-/* slider area end */
-
-
-/*about .html end */
-  
-  
   /*service area*/
 
   @media only screen and (max-width: 2560px){
@@ -397,3 +362,54 @@
     }
 
 }
+
+
+
+
+
+
+
+
+/*============= about.html start ===========*/
+
+.aboutpage li a:hover{
+  color: #FE6809!important;
+ }
+ /* about page header start */
+
+
+ @media only screen and (max-width: 1400px){
+  .aboutpage li a{
+    font-family: 'Manrope',sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+
+}
+
+@media only screen and (max-width: 800px){
+
+  .aboutpage-header-content{
+    margin-left: 20%!important;
+    top: 70%!important;
+   }
+
+}
+
+@media only screen and (max-width: 500px){
+
+  .aboutpage-header-content{
+    margin-left: 3%!important;
+    top: 65%!important;
+   }
+
+} 
+/* header area end */
+
+
+/*========== about .html end ==========*/
+  
+  
