@@ -381,7 +381,7 @@
  @media only screen and (max-width: 1400px){
   .aboutpage li a{
     font-family: 'Manrope',sans-serif;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 800;
     line-height: 22px;
     letter-spacing: 0em;
@@ -394,9 +394,23 @@
 
   .aboutpage-header-content{
     margin-left: 20%!important;
-    top: 70%!important;
+    top: 65%!important;
    }
-
+   .sub-menu{
+    padding-right: 5px!important;
+    width: 125px!important;
+    transform: translateY(0%)!important;
+    position: relative!important;
+    display: none!important; 
+     -moz-transition:all 900ms ease;
+    -webkit-transition:all 900ms ease;
+    -ms-transition:all 900ms ease;
+    -o-transition:all 900ms ease;
+    transition:all 900ms ease;
+  }
+  .main-nav:hover .sub-menu{
+    display: block!important;
+  }
 }
 
 @media only screen and (max-width: 500px){

@@ -223,7 +223,6 @@ header{
 }
 /* header area end */
 
-
 /* slider area start */
 
 .carousel-inner{ 
@@ -1605,8 +1604,8 @@ a{
   left: 0;
   bottom: 0;
   background-repeat: repeat-x;
-  animation: slide 100s linear infinite;
   -webkit-animation: slide 100s linear infinite;
+  animation: slide 100s linear infinite;
 }
 .footer___gallery___image {
   display: -webkit-box;
