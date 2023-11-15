@@ -15,15 +15,7 @@ $(document).ready(function() {
 	});
   });
 
-  // Enable hover for dropdown
-  var hoverDropdown = document.getElementById('hover-dropdown');
-  hoverDropdown.addEventListener('mouseenter', function () {
-    hoverDropdown.classList.add('show');
-  });
-
-  hoverDropdown.addEventListener('mouseleave', function () {
-    hoverDropdown.classList.remove('show');
-  });
+ 
 
 // faq area start
 

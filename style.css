@@ -960,7 +960,6 @@ transition: .3s;
   background-color: #F2F3F6;
   margin: 1rem 0;
   border-radius: 0.5rem;
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
           box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .accordion-item-header {
@@ -974,10 +973,8 @@ transition: .3s;
   text-align: left;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: flex; 
+  align-items: center;
   position: relative;
   cursor: pointer;
 }
@@ -1001,8 +998,6 @@ transition: .3s;
   max-height: 0;
   background:#fff;
   overflow: hidden;
-  -webkit-transition: max-height 0.3s ease-out;
-  -o-transition: max-height 0.3s ease-out;
   transition: max-height 0.3s ease-out;
 }
 .accordion-item-body-content {
@@ -1015,17 +1010,9 @@ transition: .3s;
   text-align: left;
   color:#666666;
   border-top: 1px solid;
-  -o-border-image: linear-gradient(left, transparent, #FE6809, transparent) 1;
-     border-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#FE6809), to(transparent)) 1;
-     border-image: -ms-gradient(linear, left top, right top, from(transparent), color-stop(#FE6809), to(transparent)) 1;
-     border-image: linear-gradient(to right, transparent, #FE6809, transparent) 1;
+  border-image: linear-gradient(to right, transparent, #FE6809, transparent) 1;
 }
 
-@media (max-width: 767px) {
-  html {
-    font-size: 14px;
-  }
-}
 
 /* faq area end */
 

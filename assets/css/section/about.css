@@ -18,7 +18,7 @@
   display: inline-block;
 }
 .sub-menu{
-  background: #313030!important;
+  background: var(--secondary-color)!important;
   color: #fff!important;
   padding-right: 25px;
   padding-left: 5px;
@@ -48,6 +48,11 @@
 .sub-menu-item{
   border-bottom: 1px solid #484848;
   padding: 10px 15px;
+  font-family: 'Manrope',sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: 0em;
   display: block;
 }
 
@@ -67,7 +72,7 @@
     top: 55%;
     position: absolute;
     text-align: left;
-    margin-left: 37%;
+    margin-left: 33%;
     z-index: 6;
    }
    

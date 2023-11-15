@@ -1,0 +1,286 @@
+.left-col .service-all{
+    border: 1px solid #66666633;
+    padding: 5px;
+}
+
+.left-col h3{
+font-family: 'Teko',sans-serif;
+font-size: 30px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+padding: 15px 30px;
+color: #fff;
+background: var(--theme-color);
+
+}
+.left-col .service-list {
+background: #F5F5F5;
+padding: 10px 15px;
+}
+.left-col .service-list:hover {
+background: #1F1F1F;
+transform: scaleX(99%);
+transition: all 400ms ease;
+}
+.left-col .service-list:hover h6{
+margin-left: 5px;
+color: #fff;
+}
+.left-col .service-list  h6{
+font-family: 'Manrope',sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: #1F1F1F;
+}
+.left-col .service-list  .icon{
+    text-align: right;
+    }
+
+
+.left-col .s-contact {
+    position: relative;
+}
+.left-col .s-contact .image-content{
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.left-col .s-contact .image-content > h3{
+font-family: 'Teko',sans-serif;
+font-size: 30px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+background: none;
+}
+
+.left-col .s-contact .image-content  .up-info{
+    font-family: 'Manrope',sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px!important;
+}
+.left-col .s-contact .image-content  .down-info{
+    font-family: 'Teko',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;    
+    margin: 0px!important;
+}
+
+
+.image-and-text h2{
+    font-family: 'Teko',sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000;    
+    margin: 0px!important;
+}
+
+.image-and-text p{
+    font-family: 'Manrope',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cards:hover{
+    border-bottom: 2px solid #FE6809;
+}
+.cards:hover .icon-box i{
+    background: #FE6809;
+    color: #fff;
+}
+
+/* Add responsive styles as needed */
+@media (max-width: 600px) {
+    .cards {
+        width: 100%;
+    }
+}
+
+
+
+/* faq */
+
+
+.faq-container {
+    width: 99%;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.faq-question {
+    background-color: #F2F3F6;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+
+.faq-question:hover {
+    background-color: #f9f9f9;
+}
+
+.faq-question h3 {
+    padding: 20px 40px;
+    font-family: 'Teko',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color:#1F1F1F;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.faq-question h3::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    color:#666666;
+  }
+  .faq-question #question .active::after {
+    content: "\2212";
+    color:#FE6809;
+  }
+  .faq-question h3.active{
+    background: #fff;
+    color: #FE6809;
+  }
+  
+.faq-answer {
+    display: none;
+    padding: 1rem;
+    font-family: 'Manrope',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#666666;
+    border-top: 1px solid;
+    -o-border-image: linear-gradient(left, transparent, #FE6809, transparent) 1;
+       border-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#FE6809), to(transparent)) 1;
+       border-image: -ms-gradient(linear, left top, right top, from(transparent), color-stop(#FE6809), to(transparent)) 1;
+       border-image: linear-gradient(to right, transparent, #FE6809, transparent) 1;
+}
+
+.faq-answer.active {
+    display: block;
+}
+
+/* .accordions {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+  }
+  .accordion-items {
+    background-color: #F2F3F6;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  }
+  .accordion-item-headers {
+    padding: 20px 40px;
+    font-family: 'Teko',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color:#1F1F1F;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .accordion-item-headers::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    color:#666666;
+  }
+  .accordion-item-headers.active::after {
+    content: "\2212";
+    color:#FE6809;
+  }
+  .accordion-item-headers.active{
+    background: #fff;
+    color: #FE6809;
+  }
+  
+  .accordion-item-body {
+    max-height: 0;
+    background:#fff;
+    overflow: hidden;
+    -webkit-transition: max-height 0.3s ease-out;
+    -o-transition: max-height 0.3s ease-out;
+    transition: max-height 0.3s ease-out;
+  }
+  .accordion-item-body-content {
+    padding: 1rem;
+    font-family: 'Manrope',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#666666;
+    border-top: 1px solid;
+    -o-border-image: linear-gradient(left, transparent, #FE6809, transparent) 1;
+       border-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#FE6809), to(transparent)) 1;
+       border-image: -ms-gradient(linear, left top, right top, from(transparent), color-stop(#FE6809), to(transparent)) 1;
+       border-image: linear-gradient(to right, transparent, #FE6809, transparent) 1;
+  }
+   */
