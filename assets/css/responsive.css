@@ -82,7 +82,7 @@
     @media only screen and (max-width: 500px){
 
       .header-content{
-       top: 55%!important; 
+       top: 45%!important; 
       }
 
       .service-area {
@@ -417,7 +417,7 @@
 
   .aboutpage-header-content{
     margin-left: 3%!important;
-    top: 65%!important;
+    top: 55%!important;
    }
 
 } 
