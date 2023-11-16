@@ -106,6 +106,24 @@ background: none;
     
 }
 
+.cards .feature-card-header .icon-box i{
+  font-size: 40px;
+  padding: 15px 25px;
+  color: #FE6809;
+  background: #FFF;
+}
+.cards .feature-card-header .icon-box h4{
+font-family: 'Teko',sans-serif !important;
+font-size: 50px !important;
+font-weight: 600!important;
+line-height: 30px !important;
+letter-spacing: 0em !important;
+text-align: center !important;
+margin-top: 50%!important;
+color:#1F1F1F !important;
+
+}
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -113,9 +131,9 @@ background: none;
 }
 
 .cards {
-    background-color: #fff;
+    background-color: #F5F5F5;
     border: 1px solid #ccc;
-    padding: 20px;
+    padding: 10px 20px;
     width: 300px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -213,74 +231,3 @@ background: none;
 .faq-answer.active {
     display: block;
 }
-
-/* .accordions {
-    width: 90%;
-    max-width: 1000px;
-    margin: 2rem auto;
-  }
-  .accordion-items {
-    background-color: #F2F3F6;
-    margin: 1rem 0;
-    border-radius: 0.5rem;
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
-            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
-  }
-  .accordion-item-headers {
-    padding: 20px 40px;
-    font-family: 'Teko',sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    color:#1F1F1F;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    position: relative;
-    cursor: pointer;
-  }
-  .accordion-item-headers::after {
-    content: "\002B";
-    font-size: 2rem;
-    position: absolute;
-    right: 1rem;
-    color:#666666;
-  }
-  .accordion-item-headers.active::after {
-    content: "\2212";
-    color:#FE6809;
-  }
-  .accordion-item-headers.active{
-    background: #fff;
-    color: #FE6809;
-  }
-  
-  .accordion-item-body {
-    max-height: 0;
-    background:#fff;
-    overflow: hidden;
-    -webkit-transition: max-height 0.3s ease-out;
-    -o-transition: max-height 0.3s ease-out;
-    transition: max-height 0.3s ease-out;
-  }
-  .accordion-item-body-content {
-    padding: 1rem;
-    font-family: 'Manrope',sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: left;
-    color:#666666;
-    border-top: 1px solid;
-    -o-border-image: linear-gradient(left, transparent, #FE6809, transparent) 1;
-       border-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#FE6809), to(transparent)) 1;
-       border-image: -ms-gradient(linear, left top, right top, from(transparent), color-stop(#FE6809), to(transparent)) 1;
-       border-image: linear-gradient(to right, transparent, #FE6809, transparent) 1;
-  }
-   */

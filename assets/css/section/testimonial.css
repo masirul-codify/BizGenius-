@@ -1,0 +1,11 @@
+.testimonial-card{
+    padding: 30px 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.testimonial-card .t-icon{
+    text-align: right!important;
+}
+.testimonial-card .box{
+
+}

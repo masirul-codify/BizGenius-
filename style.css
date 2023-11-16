@@ -1737,3 +1737,28 @@ a{
   border: 2px solid #353535;
 }
 /* footer area end */
+
+
+
+.error-page {
+  padding: 200px 0px;
+  background: #FE6809;
+}
+.error-page h1{
+  font-family: 'Teko',sans-serif;
+  font-size: 150px;
+  font-weight: 600;
+  line-height: 120px;
+  letter-spacing: 0em;
+  color: #fff;
+  text-align: center;
+}
+.error-page h2{
+  font-family: 'Teko',sans-serif;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: 0em;
+  color: #fff;
+  text-align: center;
+}
