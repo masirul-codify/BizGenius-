@@ -1,35 +1,4 @@
 
-.mt-100{
-    margin-top: 100px!important;
-}
-
-.mb-100{
-    margin-bottom: 100px!important;
-}
-.mt-150{
-    margin-top: 150px!important;
-}
-.mb-150{
-    margin-bottom: 150px!important;
-}
-.mt-250{
-    margin-top: 250px!important;
-}
-.mb-250{
-    margin-bottom: 250px!important;
-}
-.pt-200{
-    padding-top: 200px!important;
-}
-.pb-200{
-    padding-bottom: 200px!important;
-}
-.pt-250{
-    padding-top: 250px!important;
-}
-.pb-250{
-    padding-bottom: 250px!important;
-}
 .box-card {
     padding: 90px 60px;
     background: #FE6809;

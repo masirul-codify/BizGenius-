@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="assets/css/bootstrap.css">
 	<link rel="stylesheet" href="assets/css/responsive.css">
 	<link rel="stylesheet" href="assets/css/section/about.css">
+	<link rel="stylesheet" href="assets/css/section/contact-page.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 
@@ -166,18 +167,130 @@
 		<div class="container">
 			<div class="row d-flex align-items-center justify-content-end">
 				<div class="col-12 col-lg-12">
-					<h6 class="text-capitalize">Home - 404</h6>
-					<h3 class="text-capitalize">404 PAGE</h3> 
+					<h6 class="text-capitalize">Home - CONTACT</h6>
+					<h3 class="text-capitalize">CONTACT</h3> 
 				</div>
 			</div>
 		</div>
 	</div>
-	<section class="errorpage">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-12 col-sm-12 col-lg12 col-md-12 error-page">
-					<h1>404 .  </h1>
-					<h2>CONNECTON ERROR</h2>
+	<!-- Contact area start -->
+	<section class="contact-main mt-120 pb-200 ">
+		<div class="container">
+			<div class="row ">
+				<div class="col-12 col-md-12 col-lg-6 choose px-lg-3 mb-5">
+					<div class="px-3">
+						<div class="title d-flex fix">
+							<h6 class="primary-color">CONTACT US</h6> 
+							<div>
+								<img src="assets/img/banner/Group 1.png" alt="">
+							</div>
+						</div>
+						<h3 class="mb-0">Ready to get started?</h3>
+						<div class="sub-text mb-3">
+							<h6 class="">Your email address will not be published. Required fields are
+								marked *</h6>
+						</div>
+					</div>
+					<div class="contact-form px-3">
+						<form class="row g-3 needs-validation" novalidate>
+							<div class="col-md-12 position-relative mb-4">
+							  <input type="text" class="py-4 form-control bg-body-secondary" id="validationTooltip01" value="" placeholder="YOUR FIRST NAME" required>
+							  <div class="invalid-tooltip fs-5 fw-lighter">
+								Please enter your first name!
+							  </div>
+							</div>
+							<div class="col-md-12 position-relative  mb-4">
+							  <input type="text" class="form-control py-4 bg-body-secondary" id="validationTooltip02" value="" placeholder="YOUR LAST NAME" required>
+							  <div class="invalid-tooltip fs-5 fw-lighter">
+								Please enter your last name!
+							  </div>
+							</div>
+							<div class="col-md-12 position-relative mb-4">
+							  <label for="validationTooltipUsername" class="form-label">Username</label>
+							  <div class="input-group has-validation">
+								<span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+								<input type="text" class="form-control  py-4 bg-body-secondary" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+								<div class="invalid-tooltip fs-5 fw-lighter">
+								  Please choose a unique and valid username.
+								</div>
+							  </div>
+							</div>
+							<div class="col-md-12 position-relative mb-4">
+							  <input type="text" class="form-control py-4 bg-body-secondary" value="" placeholder="YOUR PHONE NUMBER" id="validationTooltip03" required>
+							  <div class="invalid-tooltip fs-5 fw-lighter">
+								Please provide a valid NUMBER.
+							  </div>
+							</div>
+							<div class="col-md-12 position-relative mb-3">
+							  <input type="text" class="form-control py-4 bg-body-secondary" value="" placeholder="YOUR EMAIL ADDRESS" id="validationTooltip04" required>
+							  <div class="invalid-tooltip fs-5 fw-lighter">
+								Please provide a valid EMAIL.
+							  </div>
+							</div>
+							<div class="col-md-6 position-relative mt-2">
+							  <label for="validationTooltip05" class="form-label">State</label>
+							  <select class="form-select" id="validationTooltip05" required>
+								<option selected disabled value="">Choose...</option>
+								<option>DINAJPUR</option>
+								<option>RAJSHAHI</option>
+								<option>DHAKA</option>
+								<option>RANGPUR</option>
+							  </select>
+							</div>
+							<div class="col-md-6 position-relative">
+							  <label for="validationTooltip06" class="form-label">Zip</label>
+							  <input type="text" class="form-control" id="validationTooltip06" required>
+							  <div class="invalid-tooltip fs-5 fw-lighter">
+								Please provide a valid zip.
+							  </div>
+							</div>
+							<div class="col-12">
+							  <button class="button" type="submit">SEND MESSAGE</button>
+							</div>
+						  </form>
+					</div>
+				</div>
+				<div class="col-12 col-md-12 col-lg-6 choose px-lg-3  mt-lg-0 mt-5">
+					<div class="px-3">
+						<div class="title d-flex fix">
+							<h6 class="primary-color">OUR LOCATION</h6> 
+							<div>
+								<img src="assets/img/banner/Group 1.png" alt="">
+							</div>
+						</div>
+						<div class="sub-text">
+							<h3 class="mb-0">Get in touch</h3>
+							<h6 class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							</h6>
+						</div>
+						<div class="icon-box my-5 text-start">
+							<!-- card one -->
+							<div class="icon-box-card d-flex align-items-center justify-content-start mx-auto mb-3">
+								<div class="icon"><i class="fa-solid fa-location-dot fa-beat-fade fa-xl"></i></div>
+								<div class="icon-text mx-3">
+									<div class="icon-text-title">Our Address</div>
+									<div class="icon-text-subtitle">2750 Quadra Street Victoria Road, New York, Canada</div>
+								</div>
+							</div>
+							<!-- card two -->
+							<div class="icon-box-card d-flex align-items-center justify-content-start mb-3">
+								<div class="icon"><i class="fa-solid fa-blender-phone fa-fade"></i></div>
+								<div class="icon-text mx-3">
+									<div class="icon-text-title">Contact</div>
+									<div class="icon-text-subtitle">Mobile: (+44) - 45789 - 5789 <br>
+										Mail: info@valorwide.com</div>
+								</div>
+							</div>
+							<!-- card one -->
+							<div class="icon-box-card d-flex align-items-center justify-content-start mb-3">
+								<div class="icon"><i class="fa-solid fa-users fa-beat"></i></div>
+								<div class="icon-text mx-3">
+									<div class="icon-text-title">Social</div>
+									<div class="icon-text-subtitle">2750 Quadra Street Victoria Road, New York, Canada</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -354,6 +467,7 @@
 	<script src="assets/js/bootstrap.bundle.min.js"></script>
 	<script src="assets/js/owl.carousel.min.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/contact-form-validation.js"></script>
 </body>
 
 </html>
