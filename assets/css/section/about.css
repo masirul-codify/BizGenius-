@@ -174,11 +174,12 @@ color: #FFFFFF;
  }
  .card-service-about{
   border: 2px solid #000;
+  transform: scale(.95);
 
  }
 
  .card-service-about:hover{
-  margin-bottom: 30px;
+  transform: scale(1);
   border: 2px solid var(--theme-color)!important;
   -webkit-transition-duration: .3s!important;
   -o-transition-duration: .3s!important;
