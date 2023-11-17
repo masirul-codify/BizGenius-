@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="assets/css/bootstrap.css">
 	<link rel="stylesheet" href="assets/css/responsive.css">
 	<link rel="stylesheet" href="assets/css/section/about.css">
+	<link rel="stylesheet" href="assets/css/section/contact-page.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 
@@ -679,13 +680,50 @@
 	<!-- team area end -->
 	<!-- contact area start -->
 	<section class="contact mt-120 mb-80">
-		<div class="container">
+		<div class="container bg-dark">
 			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12 contact-left text-center d-block p-5 gx-4">
+				<div class="col-12 col-md-12 col-sm-12 contact-left text-center d-block p-5 gx-4">
 					<p>Contact With
 						<img class="img-fluid" src="assets/img/banner/Group 1.png" alt="">
 					</p> <span>Let’s Work Together?</span>
-					<div class="d-flex align-items-center justify-content-start mb-2">
+
+					<div class="contact-form px-1">
+						<form class="row g-3 needs-validation" novalidate>
+							<div class="col-md-6 position-relative mb-4">
+							  <input type="text" class="py-4 form-control bg-body-secondary" id="validationTooltip01" value="" placeholder="YOUR FIRST NAME" required>
+							  <div class="invalid-tooltip fs-5 fw-lighter">
+								Please enter your first name!
+							  </div>
+							</div>
+							<div class="col-md-6 position-relative  mb-4">
+							  <input type="text" class="form-control py-4 bg-body-secondary" id="validationTooltip02" value="" placeholder="YOUR LAST NAME" required>
+							  <div class="invalid-tooltip fs-5 fw-lighter">
+								Please enter your last name!
+							  </div>
+							</div>
+							<div class="col-md-6 position-relative mb-4">
+							  <input type="text" class="form-control py-4 bg-body-secondary" value="" placeholder="YOUR PHONE NUMBER" id="validationTooltip03" required>
+							  <div class="invalid-tooltip fs-5 fw-lighter">
+								Please provide a valid NUMBER.
+							  </div>
+							</div>
+							<div class="col-md-6 position-relative mb-3">
+							  <input type="text" class="form-control py-4 bg-body-secondary" value="" placeholder="YOUR EMAIL ADDRESS" id="validationTooltip04" required>
+							  <div class="invalid-tooltip fs-5 fw-lighter">
+								Please provide a valid EMAIL.
+							  </div>
+							</div>
+							<div class="col-md-12 position-relative mb-3">
+							  <textarea type="textarea" class="form-control py-4 bg-body-secondary" value="" placeholder="WRITE YOUR MESSAGE" id="validationTooltip06" required></textarea>
+							</div>
+							<div class="col-12">
+							  <button class="button" type="submit">SEND MESSAGE</button>
+							</div>
+						  </form>
+					</div>
+
+
+					<!-- <div class="d-flex align-items-center justify-content-start mb-2">
 						<input class="py-3 px-2  w-50 " type="" placeholder="Name">
 						<input class="py-3 px-2 mx-2  w-50 " type="email" placeholder="Email">
 					</div>
@@ -697,9 +735,12 @@
 						<textarea placeholder="message" class="p-3 w-100 h-100"></textarea>
 					</div>
 					<div class="d-flex align-items-center justify-content-start">
-						<button type="button" class="button mx-0">Message</button>"></div>
+						<button type="button" class="button mx-0">Message</button>"></div> -->
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12" style="background-image: url(assets/img/contact/Vector\ 1.png);background-size: cover; background-repeat: none;">
+
+
+
+				<div class="col-12 col-lg-6 col-md-12 col-sm-12" style="background-image: url(assets/img/contact/Vector\ 1.png);background-size: cover; background-repeat: none;">
 					<div class="contact-right"></div>
 				</div>
 			</div>
@@ -954,6 +995,7 @@
 	<script src="assets/js/bootstrap.bundle.min.js"></script>
 	<script src="assets/js/owl.carousel.min.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/contact-form-validation.js"></script>
 </body>
 
 </html>
