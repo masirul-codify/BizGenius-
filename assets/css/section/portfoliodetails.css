@@ -27,6 +27,9 @@
 
 .img-card{
     position: relative;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    padding-bottom: 200px;
 }
 
 
@@ -35,7 +38,7 @@
     position: absolute;
     display: block;
     overflow: hidden;
-    top:55%;
+    top:60%;
     bottom:0;
     left:0;
     right:0;
@@ -59,7 +62,7 @@
     }
     
     .img-card{
-        padding-bottom: 450px!important;
+        padding-bottom: 480px!important;
     } 
     .img-card-box{
         top:35%;
@@ -86,7 +89,7 @@
         padding-bottom: 400px!important;
     } 
     .img-card-box{
-        top:34%;
+        top:30%;
     }
 }
 .portfolio-text {

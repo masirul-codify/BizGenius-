@@ -156,19 +156,20 @@
     margin-bottom: 50px;
     margin-top: 20px;
    }
-   .card-service{
+   .card-service-about{
     border: 2px solid #000;
 
    }
 
-   .card-service:hover{
+   .card-service-about:hover{
+    margin-bottom: 30px;
     border: 2px solid var(--theme-color)!important;
     -webkit-transition-duration: .3s!important;
     -o-transition-duration: .3s!important;
     transition-duration: .3s!important;
     box-shadow:  #FE6809, 0.25px 55px,  #FE6809 251, 0.12.122px 30px,  #FE6809 0px 4px 6px,  #FE6809 0.17px 13px,  #FE6809 0px -3px 5px;
    }
-   .card-service:hover i{
+   .card-service-about:hover i{
     color: #FE6809!important;
    }
 
