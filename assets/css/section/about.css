@@ -181,9 +181,9 @@ color: #FFFFFF;
  .card-service-about:hover{
   transform: scale(1);
   border: 2px solid var(--theme-color)!important;
-  -webkit-transition-duration: .3s!important;
-  -o-transition-duration: .3s!important;
-  transition-duration: .3s!important;
+  -webkit-transition-duration: .7s!important;
+  -o-transition-duration: .7s!important;
+  transition-duration: .7s!important;
   -webkit-box-shadow:  #FE6809, 0.25px 55px,  #FE6809 251, 0.12.122px 30px,  #FE6809 0px 4px 6px,  #FE6809 0.17px 13px,  #FE6809 0px -3px 5px;
           box-shadow:  #FE6809, 0.25px 55px,  #FE6809 251, 0.12.122px 30px,  #FE6809 0px 4px 6px,  #FE6809 0.17px 13px,  #FE6809 0px -3px 5px;
  }

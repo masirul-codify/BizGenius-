@@ -31,6 +31,29 @@
 
 
 /* topbar area end */
+/* header area start */
+
+
+@media only screen and (max-width: 768px){
+  .header-content  h3{
+    font-family: 'Teko',sans-serif;
+    font-size: 90px!important;
+    line-height: 95px!important;
+  }
+
+}
+
+@media only screen and (max-width: 425px){
+  .header-content  h3{
+    font-family: 'Teko',sans-serif;
+    font-size: 70px!important;
+    line-height: 90px!important;
+  }
+
+}
+
+
+/* header area end */
 
 /*service area*/
 
@@ -451,7 +474,12 @@ color: #FE6809!important;
 
 }
 @media only screen and (max-width: 768px){
-
+  .aboutpage-header-content  h3{
+    font-family: Teko;
+    font-size: 70px!important;
+    line-height: 90px!important;
+  
+  }
   } 
 
 @media only screen and (max-width: 425px){

@@ -288,8 +288,8 @@ header{
 .header-content{
   position: absolute;
   top: 30%;
-  left:20%;
-  transform: translate(-30%, -20%);
+  left:25%;
+  transform: translate(-30%, -25%);
   text-align: center;
 }
 
