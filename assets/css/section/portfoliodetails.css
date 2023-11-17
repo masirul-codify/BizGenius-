@@ -1,9 +1,11 @@
 
+
 .box-card {
     padding: 90px 60px;
     background: #FE6809;
     border-radius: 20px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .box-card .box h4{

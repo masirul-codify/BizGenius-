@@ -1,3 +1,10 @@
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 8 version
+*/
+
 .left-col .service-all{
     border: 1px solid #66666633;
     padding: 5px;
@@ -21,7 +28,11 @@ padding: 10px 15px;
 }
 .left-col .service-list:hover {
 background: #1F1F1F;
-transform: scaleX(99%);
+-webkit-transform: scaleX(99%);
+    -ms-transform: scaleX(99%);
+        transform: scaleX(99%);
+-webkit-transition: all 400ms ease;
+-o-transition: all 400ms ease;
 transition: all 400ms ease;
 }
 .left-col .service-list:hover h6{
@@ -125,8 +136,11 @@ color:#1F1F1F !important;
 }
 
 .card-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -136,7 +150,8 @@ color:#1F1F1F !important;
     padding: 10px 20px;
     width: 300px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .cards:hover{
@@ -222,9 +237,9 @@ color:#1F1F1F !important;
     text-align: left;
     color:#666666;
     border-top: 1px solid;
-    -o-border-image: linear-gradient(left, transparent, #FE6809, transparent) 1;
-       border-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#FE6809), to(transparent)) 1;
+    -o-border-image: -o-linear-gradient(left, transparent, #FE6809, transparent) 1;
        border-image: -ms-gradient(linear, left top, right top, from(transparent), color-stop(#FE6809), to(transparent)) 1;
+       border-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#FE6809), to(transparent)) 1;
        border-image: linear-gradient(to right, transparent, #FE6809, transparent) 1;
 }
 
