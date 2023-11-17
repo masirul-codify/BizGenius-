@@ -226,12 +226,71 @@ header{
   color: #fff!important;
 }
 
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 8 version
+*/
+
+.f-in-out {
+  -webkit-animation: fadeInOut 5s infinite alternate;
+          animation: fadeInOut 5s infinite alternate; /* Adjust the duration as needed */
+}
+
+/* Fade In/Out Animation Keyframes */
+@-webkit-keyframes fadeInOut {
+  0%, 100% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+}
+@keyframes fadeInOut {
+  0%, 100% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+}
+
+
+
+.zoomable-in {
+  -webkit-animation: zoomIn 3s infinite alternate;
+          animation: zoomIn 3s infinite alternate;
+}
+
+/* Zoom-in Animation Keyframes */
+@-webkit-keyframes zoomIn {
+  0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+  }
+  100% {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2); /* Adjust the scale factor as needed */
+  }
+}
+@keyframes zoomIn {
+  0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+  }
+  100% {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2); /* Adjust the scale factor as needed */
+  }
+}
+
 .header-content{
- top: 45%;
- position: absolute;
- text-align: left;
- margin-left: 8%;
- z-index: 6;
+  position: absolute;
+  top: 30%;
+  left:20%;
+  transform: translate(-30%, -20%);
+  text-align: center;
 }
 
 .header-content  h6{

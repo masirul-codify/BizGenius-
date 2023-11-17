@@ -84,11 +84,11 @@ transition: .4s ease;
 
 
 .aboutpage-header-content{
-  top: calc(50%);
   position: absolute;
-  text-align: left;
-  margin-left: 30%;
-  z-index: 6;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
  }
  
  .aboutpage-header-content  h6{

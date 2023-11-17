@@ -44,9 +44,6 @@
   }
   @media only screen and (max-width: 1440px){
 
-    .header-content{
-      top: 45%!important; 
-     }
 
   .service-cards{
     width: 64%!important; 
@@ -71,9 +68,6 @@
   
   @media only screen and (max-width: 800px){
    
-  .header-content{
-      top: 55%!important; 
-     }
 
   .service-cards{ 
     top: 75%;  
@@ -87,10 +81,6 @@
   }
   
   @media only screen and (max-width: 500px){
-
-    .header-content{
-     top: 45%!important; 
-    }
 
     .service-area {
       margin-bottom: 0px!important;
@@ -394,10 +384,7 @@ color: #FE6809!important;
     text-align: left;
     }
   
-  .aboutpage-header-content{
-    margin-left: 20%!important;
-    top: 15%!important;
-   }
+
   }
 
 @media only screen and (max-width: 3300px){
@@ -409,11 +396,8 @@ color: #FE6809!important;
     letter-spacing: 0em;
     text-align: left;
     }
-  
-    .aboutpage-header-content{
-      margin-left: 20%!important;
-      top: 25%!important;
-     }
+
+
     }
 
 @media only screen and (max-width: 2600px){
@@ -425,31 +409,13 @@ color: #FE6809!important;
     letter-spacing: 0em;
     text-align: left;
     }
-  
-    .aboutpage-header-content{
-      margin-left: 20%!important;
-      top: 35%!important;
-     }
+
+
     }
 
-    @media only screen and (max-width: 1900px){
-      .aboutpage li a{
-        font-family: 'Manrope',sans-serif;
-        font-size: 16px;
-        font-weight: 800;
-        line-height: 24px;
-        letter-spacing: 0em;
-        text-align: left;
-        }
-      
-        .aboutpage-header-content{
-          margin-left: 20%!important;
-          top: 45%!important;
-         }
-        }
         
         
-@media only screen and (max-width: 1400px){
+@media only screen and (max-width: 1440px){
 .aboutpage li a{
   font-family: 'Manrope',sans-serif;
   font-size: 14px;
@@ -459,19 +425,11 @@ color: #FE6809!important;
   text-align: left;
   }
 
-  .aboutpage-header-content{
-    margin-left: 20%!important;
-    top: 55%!important;
-   }
 
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1024px){
 
-.aboutpage-header-content{
-  margin-left: 20%!important;
-  top: 65%!important;
- }
  .aboutpage-header-content .testimonial-title{
     font-size: 30px!important;
  }
@@ -490,16 +448,18 @@ color: #FE6809!important;
 .main-nav:hover .sub-menu{
   display: block!important;
 }
+
 }
+@media only screen and (max-width: 768px){
 
-@media only screen and (max-width: 500px){
+  } 
 
-.aboutpage-header-content{
-  margin-left: 3%!important;
-  top: 55%!important;
- }
+@media only screen and (max-width: 425px){
 
 } 
+@media only screen and (max-width: 375px){
+
+  } 
 /* header area end */
 
 
