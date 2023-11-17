@@ -84,7 +84,7 @@ transition: .4s ease;
 
 
 .aboutpage-header-content{
-  top: 55%;
+  top: calc(50%);
   position: absolute;
   text-align: left;
   margin-left: 30%;

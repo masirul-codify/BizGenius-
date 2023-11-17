@@ -384,7 +384,71 @@ color: #FE6809!important;
 }
 /* about page header start */
 
+@media only screen and (max-width: 3900px){
+  .aboutpage li a{
+    font-family: 'Manrope',sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+  
+  .aboutpage-header-content{
+    margin-left: 20%!important;
+    top: 15%!important;
+   }
+  }
 
+@media only screen and (max-width: 3300px){
+  .aboutpage li a{
+    font-family: 'Manrope',sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+  
+    .aboutpage-header-content{
+      margin-left: 20%!important;
+      top: 25%!important;
+     }
+    }
+
+@media only screen and (max-width: 2600px){
+  .aboutpage li a{
+    font-family: 'Manrope',sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+  
+    .aboutpage-header-content{
+      margin-left: 20%!important;
+      top: 35%!important;
+     }
+    }
+
+    @media only screen and (max-width: 1900px){
+      .aboutpage li a{
+        font-family: 'Manrope',sans-serif;
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        }
+      
+        .aboutpage-header-content{
+          margin-left: 20%!important;
+          top: 45%!important;
+         }
+        }
+        
+        
 @media only screen and (max-width: 1400px){
 .aboutpage li a{
   font-family: 'Manrope',sans-serif;
@@ -394,6 +458,11 @@ color: #FE6809!important;
   letter-spacing: 0em;
   text-align: left;
   }
+
+  .aboutpage-header-content{
+    margin-left: 20%!important;
+    top: 55%!important;
+   }
 
 }
 
